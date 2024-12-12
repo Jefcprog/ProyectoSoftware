@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+body, .containerPrincipal{
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.containerPrincipal{
+    padding: 25px;
+}
+.containerLogin{
+    border-radius: 25px;
+    padding: 25px;
+    width: 450px;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.formLogin {
+    padding: 0 ;
+}
+.row{
+    margin: 15px;
+}

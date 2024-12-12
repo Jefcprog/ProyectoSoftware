@@ -1,0 +1,7 @@
+.containerProximamente{
+    width: 96vw;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

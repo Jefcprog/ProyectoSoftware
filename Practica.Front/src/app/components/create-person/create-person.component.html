@@ -1,0 +1,118 @@
+<app-navbar></app-navbar>
+<div class="mt-3 ms-4">
+    <h1 class="text-primary">Crear de Persona</h1>
+</div>
+<div class="container">
+    <form action="" [formGroup]="form">
+        <div>
+            <h3>Datos Personales</h3>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-4">
+                    <label for="identificationId">Identificación</label>
+                    <input class="form-control" id="identificationId" type="text" placeholder="Ingrese la identificación "
+                    formControlName="identification" [class.is-invalid]="getInvalid('identification')" (ngModelChange)="GeneratedUser()">
+                </div>
+                <div class="col-4">
+                    <label for="nameId">Nombre</label>
+                    <input class="form-control" id="nameId" type="text" placeholder="Ingrese el nombre"
+                    formControlName="name" [class.is-invalid]="getInvalid('name')" (ngModelChange)="GeneratedUser()">
+                </div>
+                <div class="col-4">
+                    <label for="lastNameId">Apellido</label>
+                    <input class="form-control" id="lastNameId" type="text" placeholder="Ingrese el apellido"
+                    formControlName="lastName" [class.is-invalid]="getInvalid('lastName')" (ngModelChange)="GeneratedUser()">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label for="addressId">Dirección</label>
+                    <input class="form-control" id="addressId" type="text" placeholder="Ingrese la dirección "
+                    formControlName="address" [class.is-invalid]="getInvalid('address')">
+                </div>
+                <div class="col-4">
+                    <label for="phoneId">Teléfono</label>
+                    <input class="form-control" id="phoneId" type="text" placeholder="Ingrese el teléfono"
+                    formControlName="phone" [class.is-invalid]="getInvalid('phone')">
+                </div>
+                <div class="col-4">
+                    <label for="dateBirthId">Fecha de Nacimiento</label>
+                    <input class="form-control" id="dateBirthId" type="date"
+                    formControlName="dateBirth" [class.is-invalid]="getInvalid('dateBirth')">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label for="nationalityId">Nacionalidad</label>
+                    <input class="form-control" id="nationalityId" type="text" placeholder="Ingrese la nacionalidad"
+                    formControlName="nationality" [class.is-invalid]="getInvalid('nationality')">
+                </div>
+                <div class="col-4">
+                    <label for="sexIdId">Sexo</label>
+                    <select class="form-control" id="sexIdId" type="text"
+                    formControlName="sexId" [class.is-invalid]="getInvalid('sexId')">
+                    <option value="" selected disabled>Seleccione el sexo</option>
+                    @for (item of sexList; track $index) {
+                        <option [value]="item.sexId">{{item.description}}</option>
+                    }
+                </select>
+                </div>
+                <div class="col-4">
+                    <label for="maritalStatusId">Estado civil</label>
+                    <select class="form-control" id="maritalStatusId" type="date"
+                    formControlName="maritalStatus" [class.is-invalid]="getInvalid('maritalStatus')">
+                    <option value="" selected disabled>Seleccione el estado civil</option>
+                    <option value="Soltero/a">Soltero/a</option>
+                    <option value="Casado/a">Casado/a</option>
+                    <option value="Divorciado/a">Divorciado/a</option>
+                </select>
+                </div>            
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label for="occupationId">Ocupación</label>
+                    <input class="form-control" id="occupationId" type="text" placeholder="Ingrese la occupación"
+                    formControlName="occupation" [class.is-invalid]="getInvalid('occupation')">
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3>Datos Usuario</h3>
+            <div>
+                <div class="row">
+                    <div class="col-4">
+                        <label for="emailId">Email</label>
+                        <input class="form-control" id="emailId" type="text" placeholder="Ingrese el email"
+                        formControlName="email" [class.is-invalid]="getInvalid('email')">
+                    </div>
+                    <div class="col-4">
+                        <label for="nameUserId">Usuario</label>
+                        <input class="form-control" id="nameUserId" type="text" [disabled]="true"
+                        formControlName="nameUser" [class.is-invalid]="getInvalid('nameUser')">
+                    </div>
+                    <div class="col-4">
+                        <label for="passwordId">Contraseña</label>
+                        <input class="form-control" id="passwordId" type="text" 
+                        formControlName="password" [class.is-invalid]="getInvalid('password')" >
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label for="rolId">Rol</label>
+                        <select class="form-control" id="rolId" type="text"
+                        formControlName="rol" [class.is-invalid]="getInvalid('rol')">
+                        <option value="" selected disabled>Seleccione el rol</option>
+                        @for (item of rolList; track $index) {
+                            <option [value]="item.rolId">{{item.descriptionRol}}</option>
+                        }
+                    </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+            <button class="btn btn-success" (click)="PostPerson()">Guardar Persona</button>
+        </div>
+    </form>
+</div>
