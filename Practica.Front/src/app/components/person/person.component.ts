@@ -39,9 +39,28 @@ export class PersonComponent  extends SwalMethods implements OnInit{
       this._serviceUser.ClearLocal();
       this.modalAcceptRouter("Su Sesión ha caducado", "login");     
     }
+    
     this.modalLoading();
-    this.GetSex(); 
-    Swal.close();
+    this.GetSex();     
+    this.GetAll(true);
+    
+  }
+  GetAll(init:boolean){
+    this.BuildGetRequest();  
+    this._services.GetPerson(this.request!).subscribe({
+      next:resp=>{
+        if(resp.code==200){
+          this.personList=resp.data;
+          if(init){
+            this.ModalCorrecto("Se ha cargado todos los registros")
+          }
+        }else{
+          this.ModalCorrecto(resp.message!);
+        }
+      },error:err=>{
+        this.ModalError(this.ChangesMessage(err.error));
+      }
+    })    
   }
   GetSex(){
     this._serviceSex.GetSex().subscribe({
@@ -68,6 +87,7 @@ export class PersonComponent  extends SwalMethods implements OnInit{
     return this.form.get(argument)?.invalid && this.form.get(argument)?.touched;
   }
   GetPerson(){
+    this.modalLoading();    
     if(this.form.invalid){
       Object.values(this.form.controls).forEach(controls=>controls.markAllAsTouched());
       this.ModalCamposVacios("Se debe llenar el campo de busqueda");
@@ -77,14 +97,21 @@ export class PersonComponent  extends SwalMethods implements OnInit{
     this._services.GetPerson(this.request!).subscribe({
       next:resp=>{
         if(resp.code==200){
+          Swal.close();
           this.personList=resp.data;
         }else{
           this.ModalCorrecto(resp.message!);
+          this.GetAll(false)
         }
       },error:err=>{
         this.ModalError(this.ChangesMessage(err.error));
       }
     })
+  }
+  BuildGetRequest(){
+    this.request=new SearchRequest();
+    this.request.search="AllPerson";
+    this.request.data="true";
   }
   BuildSearchRequest(){
     this.request=new SearchRequest();

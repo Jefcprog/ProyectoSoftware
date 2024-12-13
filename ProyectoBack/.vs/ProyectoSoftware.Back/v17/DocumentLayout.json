@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\ECOTEC\\Cuarto Semestre\\Software II\\Proyecto\\ProyectoBack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\usuario\\onedrive\\desktop\\ecotec\\cuarto semestre\\software ii\\proyecto\\proyectoback\\src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|c:\\users\\usuario\\onedrive\\desktop\\ecotec\\cuarto semestre\\software ii\\proyecto\\proyectoback\\src\\proyectosoftware.back.be\\const\\switchoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|solutionrelative:src\\proyectosoftware.back.be\\const\\switchoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|c:\\users\\usuario\\onedrive\\desktop\\ecotec\\cuarto semestre\\software ii\\proyecto\\proyectoback\\src\\proyectosoftware.back.be\\utilitarian\\tokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|solutionrelative:src\\proyectosoftware.back.be\\utilitarian\\tokenjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\usuario\\onedrive\\desktop\\ecotec\\cuarto semestre\\software ii\\proyecto\\proyectoback\\src\\proyectosoftware.back.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\usuario\\onedrive\\desktop\\ecotec\\cuarto semestre\\software ii\\proyecto\\proyectoback\\src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\usuario\\onedrive\\desktop\\ecotec\\cuarto semestre\\software ii\\proyecto\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\sexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "SwitchOptions.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\ECOTEC\\Cuarto Semestre\\Software II\\Proyecto\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Const\\SwitchOptions.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\Const\\SwitchOptions.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\ECOTEC\\Cuarto Semestre\\Software II\\Proyecto\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Const\\SwitchOptions.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Const\\SwitchOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T00:30:40.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TokenJWT.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\ECOTEC\\Cuarto Semestre\\Software II\\Proyecto\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Utilitarian\\TokenJWT.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\Utilitarian\\TokenJWT.cs",
@@ -70,12 +87,11 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Utilitarian\\TokenJWT.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T23:13:33.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T23:13:33.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Sex.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\ECOTEC\\Cuarto Semestre\\Software II\\Proyecto\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Models\\Sex.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\Models\\Sex.cs",
@@ -83,12 +99,11 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Models\\Sex.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T23:13:12.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T23:13:12.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\ECOTEC\\Cuarto Semestre\\Software II\\Proyecto\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\appsettings.json",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\appsettings.json",
@@ -96,25 +111,24 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-09T23:12:54.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T23:12:54.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PersonServices.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\ECOTEC\\Cuarto Semestre\\Software II\\Proyecto\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
               "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\ECOTEC\\Cuarto Semestre\\Software II\\Proyecto\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
-              "ViewState": "AQIAABkAAACAzMzMzMwlwHUAAAAIAAAA",
+              "ViewState": "AQIAADMAAABAMzMzMzM2wEUAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T23:01:16.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\ECOTEC\\Cuarto Semestre\\Software II\\Proyecto\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\UserServices.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\UserServices.cs",
@@ -127,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Extensions.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\ECOTEC\\Cuarto Semestre\\Software II\\Proyecto\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
@@ -140,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SexController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\ECOTEC\\Cuarto Semestre\\Software II\\Proyecto\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",

@@ -21,17 +21,17 @@
                     <th>Identificación</th>
                     <th>Nombre</th>
                     <th>Apellido</th>
-                    <th>NameUser</th>
+                    <th>Nombre de Usuario</th>
                     <th>Rol</th>
                     <th>Sexo</th>
                     <th>Estado Civil</th>
                     <th>Occupación</th>
-                    <th>Phone</th>
+                    <th>Teléfono</th>
                     <th>Nacionalidad</th>
-                    <th>Address</th>
+                    <th>Dirección</th>
                     <th>Fecha de Nacimiento</th>
                     <th>Fecha de Creación</th>                    
-                    <th>Options</th>                    
+                    <th>Opciones</th>                    
                 </tr>
             </ng-template>
             <ng-template pTemplate="body" let-person>
@@ -41,11 +41,9 @@
                     <td><input class="form-control inputEdit" type="text" [id]="'lastName'+person.personaId" [(ngModel)]="person.lastName" disabled></td>
                     <td><input class="form-control inputEdit" type="text" [id]="'nameUser'+person.personaId" [(ngModel)]="person.nameUser" disabled></td>
                     <td><input class="form-control inputEdit" type="text" [id]="'rol'+person.personaId" [(ngModel)]="person.rol" disabled></td>
-                    <td><select class="form-control inputEdit" type="text" [id]="'descriptionSex'+person.personaId" [(ngModel)]="person.sexId" disabled>
-                        @for (item of sexList; track $index) {
-                            <option [value]="item.sexId">{{item.description}}</option>
-                        }
-                    </select></td>
+                    <select class="form-control inputEdit" [id]="'descriptionSex'+person.personaId" [(ngModel)]="person.sexId" disabled>
+                        <option *ngFor="let item of sexList" [value]="item.sexId">{{item.description}}</option>
+                    </select>
                     <td><select class="form-control inputEdit" type="text" [id]="'maritalStatus'+person.personaId" [(ngModel)]="person.maritalStatus" disabled>
                         <option value="" selected disabled>Seleccione el estado civil</option>
                         <option value="Soltero/a">Soltero/a</option>
